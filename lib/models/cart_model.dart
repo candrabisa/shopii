@@ -6,7 +6,7 @@ class CartModel {
   late final String quantity;
   late final double price;
   late final String imageUrl;
-
+  
   CartModel({
     required this.id,
     required this.title,
@@ -14,4 +14,6 @@ class CartModel {
     required this.price,
     required this.imageUrl,
   });
+
+  
 }
